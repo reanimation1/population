@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://10.2.40.14:3579/scdb
+    username: Mysql_cmri
+    password: Mysql_cmcc2018
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+server:
+  port: 9091
